@@ -5,7 +5,7 @@ import typography from '@tailwindcss/typography'
 import forms from '@tailwindcss/forms'
 import daisyui from 'daisyui'
 
-import { lightTheme, darkTheme } from "./consts.js"
+import { lightTheme } from "./consts.js"
 
 export default {
   content: ['src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue,mdoc}'],
@@ -20,8 +20,8 @@ export default {
     daisyui,
   ],
   daisyui: {
-    themes: [lightTheme, darkTheme],
-    darkTheme,
+    themes: [lightTheme],
+    darkTheme: false,
     /*
     themes: false, // true: all themes | false: only light + dark | array: specific themes like this ["light", "dark", "cupcake"]
     darkTheme: "dark", // name of one of the included themes for dark mode
