@@ -1,14 +1,40 @@
 ---
+// astro
+import { Image } from "astro:assets"
+
 // self
 import Layout from "!layouts/layout.astro"
 import Footer from "!components/footer.astro"
 import { title } from "!root/consts.js"
+
+// images
+import myImage from "!assets/so-which-one-is-made-up.webp"
 ---
 <Layout title={title}>
-	<ul class="my-4 list-disc ml-5">
-		<li><a class="link" href="https://www.hbo.com/last-week-tonight-with-john-oliver">Last Week Tonight With John Oliver (HBO)</a></li>
-		<li><a class="link" href="https://en.wikipedia.org/wiki/Last_Week_Tonight_with_John_Oliver">Last Week Tonight With John Oliver (Wikipedia)</a></li>
-		<li><a class="link" href="https://www.youtube.com/@LastWeekTonight/videos">Last Week Tonight With John Oliver (YouTube)</a></li>
-	</ul>
+	<div class="hero bg-base-200 min-h-screen">
+		<div class="hero-content flex-col lg:flex-row">
+			<Image
+				src={myImage}
+				width={432}
+				class="max-w-sm rounded-lg shadow-2xl"
+				alt="Poignée de main"
+			/>
+			<div>
+				<h1 class="text-5xl font-bold">So which one is made up?</h1>
+				<p class="py-6">
+					Last Week Tonight With John Oliver asked a very important question on June 23, 2024.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container my-4">
+		<a class="link" href="https://www.reddit.com/r/lastweektonight/comments/1dn49mc/so_which_one_is_made_up/">So which one is made up? (Reddit)</a>
+		<ul class="my-4 list-disc ml-5">
+			<li><a class="link" href="https://www.hbo.com/last-week-tonight-with-john-oliver">Last Week Tonight With John Oliver (HBO)</a></li>
+			<li><a class="link" href="https://en.wikipedia.org/wiki/Last_Week_Tonight_with_John_Oliver">Last Week Tonight With John Oliver (Wikipedia)</a></li>
+			<li><a class="link" href="https://www.youtube.com/@LastWeekTonight/videos">Last Week Tonight With John Oliver (YouTube)</a></li>
+		</ul>
+	</div>
 	<Footer />
 </Layout>

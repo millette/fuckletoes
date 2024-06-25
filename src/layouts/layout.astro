@@ -13,9 +13,11 @@ import Breakpoints from "!components/breakpoints.astro"
 	</head>
 	<body>
 		<Breakpoints />
+		{Astro.url.pathname === '/' ? <slot /> :
 		<div class="container my-4">
 			<h1 class="text-4xl font-bold">{Astro.props.title}</h1>
       <slot >
     </div>
+		}
 	</body>
 </html>
