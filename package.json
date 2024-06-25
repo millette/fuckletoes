@@ -25,6 +25,7 @@
     "@astrojs/tailwind": "^5.1.0",
     "astro": "^4.11.1",
     "astro-devtool-breakpoints": "^0.3.0",
+    "sharp": "^0.33.4",
     "solid-js": "^1.8.17",
     "typescript": "^5.5.2"
   },
