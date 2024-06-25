@@ -1,0 +1,39 @@
+{
+  "name": "fuckletoes",
+  "type": "module",
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=20.15.0",
+    "npm": ">=10.5.0",
+    "pnpm": ">=9.4.0"
+  },
+  "packageManager": "pnpm@9.4.0",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "tsc --noEmit && astro check && astro build",
+    "check": "astro check",
+    "check:tsc": "tsc --noEmit",
+    "check:all": "tsc --noEmit && astro check",
+    "preview": "astro preview",
+    "go": "tsc --noEmit && astro check && astro build && astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.7.0",
+    "@astrojs/solid-js": "^4.4.0",
+    "@astrojs/tailwind": "^5.1.0",
+    "astro": "^4.11.1",
+    "astro-devtool-breakpoints": "^0.3.0",
+    "solid-js": "^1.8.17",
+    "typescript": "^5.5.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.13",
+    "@types/node": "^20.14.8",
+    "daisyui": "^4.12.8",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.5.2"
+  }
+}
