@@ -23,7 +23,7 @@
     "@astrojs/check": "^0.9.2",
     "@astrojs/solid-js": "^4.4.1",
     "@astrojs/tailwind": "^5.1.0",
-    "astro": "^4.13.3",
+    "astro": "^4.14.3",
     "astro-devtool-breakpoints": "^0.3.0",
     "sharp": "^0.33.4",
     "solid-js": "^1.8.20",
