@@ -13,16 +13,16 @@ importers:
         version: 0.9.3(typescript@5.5.4)
       '@astrojs/solid-js':
         specifier: ^4.4.1
-        version: 4.4.1(solid-js@1.8.21)(vite@5.4.2(@types/node@22.4.1))
+        version: 4.4.1(solid-js@1.8.21)(vite@5.4.2(@types/node@22.5.0))
       '@astrojs/tailwind':
         specifier: ^5.1.0
-        version: 5.1.0(astro@4.14.4(@types/node@22.4.1)(rollup@4.21.0)(typescript@5.5.4))(tailwindcss@3.4.10)
+        version: 5.1.0(astro@4.14.4(@types/node@22.5.0)(rollup@4.21.0)(typescript@5.5.4))(tailwindcss@3.4.10)
       astro:
         specifier: ^4.14.4
-        version: 4.14.4(@types/node@22.4.1)(rollup@4.21.0)(typescript@5.5.4)
+        version: 4.14.4(@types/node@22.5.0)(rollup@4.21.0)(typescript@5.5.4)
       astro-devtool-breakpoints:
         specifier: ^0.3.0
-        version: 0.3.0(astro@4.14.4(@types/node@22.4.1)(rollup@4.21.0)(typescript@5.5.4))
+        version: 0.3.0(astro@4.14.4(@types/node@22.5.0)(rollup@4.21.0)(typescript@5.5.4))
       sharp:
         specifier: ^0.33.5
         version: 0.33.5
@@ -40,8 +40,8 @@ importers:
         specifier: ^0.5.14
         version: 0.5.14(tailwindcss@3.4.10)
       '@types/node':
-        specifier: ^22.4.1
-        version: 22.4.1
+        specifier: ^22.5.0
+        version: 22.5.0
       daisyui:
         specifier: ^4.12.10
         version: 4.12.10(postcss@8.4.41)
@@ -651,8 +651,8 @@ packages:
   '@types/nlcst@2.0.3':
     resolution: {integrity: sha512-vSYNSDe6Ix3q+6Z7ri9lyWqgGhJTmzRjZRqyq15N0Z/1/UnVsno9G/N40NBijoYx2seFDIl0+B2mgAb9mezUCA==}
 
-  '@types/node@22.4.1':
-    resolution: {integrity: sha512-1tbpb9325+gPnKK0dMm+/LMriX0vKxf6RnB0SZUqfyVkQ4fMgUSySqhxE/y8Jvs4NyF1yHzTfG9KlnkIODxPKg==}
+  '@types/node@22.5.0':
+    resolution: {integrity: sha512-DkFrJOe+rfdHTqqMg0bSNlGlQ85hSoh2TPzZyhHsXnMtligRWpxUySiyw8FY14ITt24HVCiQPWxS3KO/QlGmWg==}
 
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
@@ -2343,18 +2343,18 @@ snapshots:
     dependencies:
       prismjs: 1.29.0
 
-  '@astrojs/solid-js@4.4.1(solid-js@1.8.21)(vite@5.4.2(@types/node@22.4.1))':
+  '@astrojs/solid-js@4.4.1(solid-js@1.8.21)(vite@5.4.2(@types/node@22.5.0))':
     dependencies:
       solid-js: 1.8.21
-      vite-plugin-solid: 2.10.2(solid-js@1.8.21)(vite@5.4.2(@types/node@22.4.1))
+      vite-plugin-solid: 2.10.2(solid-js@1.8.21)(vite@5.4.2(@types/node@22.5.0))
     transitivePeerDependencies:
       - '@testing-library/jest-dom'
       - supports-color
       - vite
 
-  '@astrojs/tailwind@5.1.0(astro@4.14.4(@types/node@22.4.1)(rollup@4.21.0)(typescript@5.5.4))(tailwindcss@3.4.10)':
+  '@astrojs/tailwind@5.1.0(astro@4.14.4(@types/node@22.5.0)(rollup@4.21.0)(typescript@5.5.4))(tailwindcss@3.4.10)':
     dependencies:
-      astro: 4.14.4(@types/node@22.4.1)(rollup@4.21.0)(typescript@5.5.4)
+      astro: 4.14.4(@types/node@22.5.0)(rollup@4.21.0)(typescript@5.5.4)
       autoprefixer: 10.4.20(postcss@8.4.41)
       postcss: 8.4.41
       postcss-load-config: 4.0.2(postcss@8.4.41)
@@ -2847,7 +2847,7 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
 
-  '@types/node@22.4.1':
+  '@types/node@22.5.0':
     dependencies:
       undici-types: 6.19.8
 
@@ -2953,11 +2953,11 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro-devtool-breakpoints@0.3.0(astro@4.14.4(@types/node@22.4.1)(rollup@4.21.0)(typescript@5.5.4)):
+  astro-devtool-breakpoints@0.3.0(astro@4.14.4(@types/node@22.5.0)(rollup@4.21.0)(typescript@5.5.4)):
     dependencies:
-      astro: 4.14.4(@types/node@22.4.1)(rollup@4.21.0)(typescript@5.5.4)
+      astro: 4.14.4(@types/node@22.5.0)(rollup@4.21.0)(typescript@5.5.4)
 
-  astro@4.14.4(@types/node@22.4.1)(rollup@4.21.0)(typescript@5.5.4):
+  astro@4.14.4(@types/node@22.5.0)(rollup@4.21.0)(typescript@5.5.4):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
@@ -3018,8 +3018,8 @@ snapshots:
       tsconfck: 3.1.1(typescript@5.5.4)
       unist-util-visit: 5.0.0
       vfile: 6.0.2
-      vite: 5.4.2(@types/node@22.4.1)
-      vitefu: 0.2.5(vite@5.4.2(@types/node@22.4.1))
+      vite: 5.4.2(@types/node@22.5.0)
+      vitefu: 0.2.5(vite@5.4.2(@types/node@22.5.0))
       which-pm: 3.0.0
       xxhash-wasm: 1.0.2
       yargs-parser: 21.1.1
@@ -4583,7 +4583,7 @@ snapshots:
       unist-util-stringify-position: 4.0.0
       vfile-message: 4.0.2
 
-  vite-plugin-solid@2.10.2(solid-js@1.8.21)(vite@5.4.2(@types/node@22.4.1)):
+  vite-plugin-solid@2.10.2(solid-js@1.8.21)(vite@5.4.2(@types/node@22.5.0)):
     dependencies:
       '@babel/core': 7.25.2
       '@types/babel__core': 7.20.5
@@ -4591,23 +4591,23 @@ snapshots:
       merge-anything: 5.1.7
       solid-js: 1.8.21
       solid-refresh: 0.6.3(solid-js@1.8.21)
-      vite: 5.4.2(@types/node@22.4.1)
-      vitefu: 0.2.5(vite@5.4.2(@types/node@22.4.1))
+      vite: 5.4.2(@types/node@22.5.0)
+      vitefu: 0.2.5(vite@5.4.2(@types/node@22.5.0))
     transitivePeerDependencies:
       - supports-color
 
-  vite@5.4.2(@types/node@22.4.1):
+  vite@5.4.2(@types/node@22.5.0):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.41
       rollup: 4.21.0
     optionalDependencies:
-      '@types/node': 22.4.1
+      '@types/node': 22.5.0
       fsevents: 2.3.3
 
-  vitefu@0.2.5(vite@5.4.2(@types/node@22.4.1)):
+  vitefu@0.2.5(vite@5.4.2(@types/node@22.5.0)):
     optionalDependencies:
-      vite: 5.4.2(@types/node@22.4.1)
+      vite: 5.4.2(@types/node@22.5.0)
 
   volar-service-css@0.0.61(@volar/language-service@2.4.0):
     dependencies:
