@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.2.1",
   "engines": {
-    "node": ">=20.16.0",
+    "node": ">=20.17.0",
     "npm": ">=10.8.2",
     "pnpm": ">=9.7.1"
   },
@@ -23,7 +23,7 @@
     "@astrojs/check": "^0.9.3",
     "@astrojs/solid-js": "^4.4.1",
     "@astrojs/tailwind": "^5.1.0",
-    "astro": "^4.14.3",
+    "astro": "^4.14.4",
     "astro-devtool-breakpoints": "^0.3.0",
     "sharp": "^0.33.5",
     "solid-js": "^1.8.21",
