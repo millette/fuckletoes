@@ -1,7 +1,7 @@
 {
   "name": "fuckletoes",
   "type": "module",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "engines": {
     "node": ">=20.17.0",
     "npm": ">=10.8.2",
