@@ -25,7 +25,7 @@
     "astro": "^4.16.9",
     "astro-devtool-breakpoints": "^0.3.0",
     "sharp": "^0.33.5",
-    "typescript": "^5.5.4"
+    "typescript": "^5.6.3"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.14",
