@@ -2,7 +2,6 @@
 
 // npm
 import typography from '@tailwindcss/typography'
-import forms from '@tailwindcss/forms'
 import daisyui from 'daisyui'
 
 import { lightTheme } from "./consts.js"
@@ -16,7 +15,6 @@ export default {
   },
   plugins: [
     typography,
-    forms,
     daisyui,
   ],
   daisyui: {
